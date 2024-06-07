@@ -1,9 +1,10 @@
 import json
+def readfile(fileName):
+    with open(fileName) as f:
+        data = json.load(f)
 
-with open('list.json') as f:
-    data = json.load(f)
+    return data
 
-for i in data['list_1500']:
-    print(i)
-    
-print(data)
+def writeW(fileName,data):
+    with open(fileName, "w") as outfile:
+        json.dump(data, outfile)

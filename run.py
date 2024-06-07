@@ -1,11 +1,10 @@
-import random
 from datetime import datetime
 import time
 import rand
 # User input
 age = 12
 ibm = 1
-mealTime = [23, 10, 52]  # Meal times in hours
+mealTime = [1, 10, 52]  # Meal times in hours
 cal_out = 89
 #logic something lol
 gg = age+ibm
@@ -26,4 +25,4 @@ while gotten_meal:
         
 
     # Add a delay to avoid a tight loop
-    time.sleep(60)  # Check every minute
+    time.sleep(30)  # Check every minute

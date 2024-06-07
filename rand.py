@@ -51,7 +51,7 @@ class Food:
 
 #@ cal = int , dataIn = obj    
 def addFood(cal,dataIn):
-    dataIn = {"name" : "aiykhjbmnfhn", "ingredent" : "asdfdg"}
+    dataIn = {"name" : "aiykhjbmnfhn", "ingredent" : "asdfdg" ,"cal" : 200}
     data = read.readfile("list.json")
     
     if cal <= 500:

@@ -19,6 +19,7 @@ def update(dataIn):
 #@ x => 0 === breakfast , 1 === lunch , 2 === dinner 
 def get(date):
     data = read.readfile('configDate.json')
+    print(date)
     if date in data:  
         x = data[date]
     else:
